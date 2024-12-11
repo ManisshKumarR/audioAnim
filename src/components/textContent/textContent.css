@@ -17,12 +17,16 @@
 
   @media screen and (max-width:768px) {
     .content{
+        max-width: 500px;
+        margin: 0 auto;
         font-size: 25px
      }
 }
 
 @media screen and (max-width:480px) {
     .content{
+         max-width:300px;
+         margin: 0 auto;
          font-size: 20px
     }
 }
