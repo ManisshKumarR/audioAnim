@@ -1,0 +1,25 @@
+.anim-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.anim{
+    width:400px;
+    height:400px;
+}
+
+@media screen and (max-width:768px) {
+    .anim{
+       width:300px;
+       height:300px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .anim{
+        width:250px;
+        height:250px;
+     }
+}
+
